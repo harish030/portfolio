@@ -14,6 +14,7 @@ import c from "../assets/langues/c.png";
 import py from "../assets/langues/py.png";
 import php from "../assets/langues/php.png";
 import java from "../assets/langues/java.png";
+import typescript from "../assets/langues/typescript.png"
 
 // Array of work objects
 export const works = [
@@ -103,81 +104,47 @@ export const langues = [
   },
   {
     id: 4,
+    src: typescript,
+    title: "TypeScript",
+    style: "shadow-blue-600",
+  },
+  {
+    id: 5,
     src: reactLangue,
     title: "React",
     style: "shadow-sky-500",
   },
   {
-    id: 5,
+    id: 6,
     src: github,
     title: "GitHub",
     style: "shadow-gray-400",
   },
   {
-    id: 6,
+    id: 7,
     src: tailwind,
     title: "Tailwind",
     style: "shadow-teal-600",
   },
   {
-    id: 7,
+    id: 8,
     src: angular,
     title: "Angular",
     style: "shadow-rose-500",
   },
   {
-    id: 8,
-    src: django,
-    title: "Django",
-    style: "shadow-emerald-700",
-  },
-  {
     id: 9,
-    src: symfony,
-    title: "Symfony",
-    style: "shadow-black",
-  },
-  {
-    id: 10,
-    src: spring,
-    title: "Spring boot",
-    style: "shadow-green-600",
-  },
-  {
-    id: 11,
     src: bootstrap,
     title: "Bootstrap",
     style: "shadow-violet-500",
   },
   {
-    id: 12,
-    src: flutter,
-    title: "Flutter",
-    style: "shadow-cyan-400",
-  },
-  {
-    id: 13,
+    id: 10,
     src: py,
     title: "Python",
     style: "shadow-yellow-400",
   },
+  
 
-  {
-    id: 14,
-    src: php,
-    title: "Php",
-    style: "shadow-violet-400",
-  },
-  {
-    id: 15,
-    src: c,
-    title: "C",
-    style: "shadow-blue-400",
-  },
-  {
-    id: 16,
-    src: java,
-    title: "Java",
-    style: "shadow-orange-500",
-  },
+  
 ];
