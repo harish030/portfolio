@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.de66fb1e.css",
-    "main.js": "/portfolio/static/js/main.c6f20d2f.js",
+    "main.js": "/portfolio/static/js/main.dc111af5.js",
     "static/media/py.png": "/portfolio/static/media/py.d8b377f05522bf35de36.png",
     "static/media/pic2.jpg": "/portfolio/static/media/pic2.e5312179964a0d227d8b.jpg",
     "static/media/MOHAMED_HARISH_HAMEED_CV.pdf": "/portfolio/static/media/MOHAMED_HARISH_HAMEED_CV.9c832a40928b32b81cd5.pdf",
@@ -22,10 +22,10 @@
     "static/media/java.png": "/portfolio/static/media/java.6c64373d3b7415758078.png",
     "index.html": "/portfolio/index.html",
     "main.de66fb1e.css.map": "/portfolio/static/css/main.de66fb1e.css.map",
-    "main.c6f20d2f.js.map": "/portfolio/static/js/main.c6f20d2f.js.map"
+    "main.dc111af5.js.map": "/portfolio/static/js/main.dc111af5.js.map"
   },
   "entrypoints": [
     "static/css/main.de66fb1e.css",
-    "static/js/main.c6f20d2f.js"
+    "static/js/main.dc111af5.js"
   ]
 }
