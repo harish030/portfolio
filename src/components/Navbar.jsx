@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/portfolio.png";
 import { FaTimes, FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
 import { BsGridFill } from "react-icons/bs";
 import { HiArrowSmUp, HiMail } from "react-icons/hi";
@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <div className={!showShadowNav ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 z-20':'fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-l from-[#21073C] to-[#3A1078] text-gray-300 z-20 shadow-2xl'}>
       <div>
-        <img src={Logo} alt="logo" style={{ width: "35px" }} />
+        <img src={Logo} alt="logo" style={{ width: "135px" }} />
       </div>
 
       {/* menu */}
@@ -152,18 +152,11 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
-            <a
-              href="https://www.behance.net/Laith-Mahdi"
-              className="flex justify-between items-center w-full text-[#3A1078]"
-            >
-              Behance <FaBehance size={30} />
-            </a>
-          </li>
+          
 
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-slate-200 rounded-e-2xl font-semibold">
             <a
-              href="mailto:mahdilaith380@gmail.com" 
+              href="mailto:harishhameed007@gmail.com" 
               className="flex justify-between items-center w-full text-[#3A1078]"
             >
               Email <HiMail size={30} />

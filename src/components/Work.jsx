@@ -29,7 +29,7 @@ const Work = () => {
               <img
                 src={work.imgUrl}
                 alt="work"
-                className="w-full h-36 md:h-48 object-cover"
+                className="w-full h-36 md:h-48 object-cover object-top"
               />
               {/* Work details */}
               <div className="w-full p-5 text-black">

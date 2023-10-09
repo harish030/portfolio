@@ -45,13 +45,13 @@ const About = () => {
           {/* About content */}
           <div className="flex flex-col justify-center">
             {/* Introduction */}
-            <p className="text-xl font-bold pb-2 text-[#00FFCA]">
+            {/* <p className="text-xl font-bold pb-2 text-[#00FFCA]">
               Hello Clint, it's a pleasure to meet you
-            </p>
+            </p> */}
             {/* Description */}
             <p className="text-sm leading-7">
-              Junior Flutter developer and UI/UX designer, passionate about
-              creating beautiful user experiences. Combining Flutter development
+              Software Engineer, passionate about
+              creating beautiful user interfaces. Combining Angular and React development
               skills with a keen eye for design. Striving to blend functionality
               with aesthetics, ensuring every pixel serves a purpose. Constantly
               learning and seeking new challenges to deliver innovative

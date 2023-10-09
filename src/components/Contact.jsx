@@ -1,12 +1,24 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,useRef } from 'react';
 import { IoSendSharp } from 'react-icons/io5';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
     useEffect(() => {
         AOS.init();
       }, []);
+
+      const sendMessage = ()=>{
+        emailjs.sendForm('service_b7t4l0l', 'template_1ebwk2j', form.current, 'ltLnL7f1OVvGhiH4i')
+     .then((result) => {
+         // show the user a success message
+         console.log(result);
+     }, (error) => {
+         // show the user an error
+     });
+      }
   return (
     <div
       name="contact"
@@ -20,12 +32,12 @@ const Contact = () => {
         {/* Description */}
         <p className="py-6">
           Submit the form below or send me an email -{" "}
-          <span className="font-bold">mahdilaith380@gmail.com</span>
+          <span className="font-bold">harishhameed007@gmail.com</span>
         </p>
 
         {/* Form */}
         <div className="">
-          <form action="">
+          <form ref={form} action="">
             <input
               type="text"
               placeholder="Name"
@@ -53,7 +65,8 @@ const Contact = () => {
         {/* Send Message Button */}
         <div className="mt-4 mx">
           <button
-            onClick=""
+            
+            onClick={sendMessage}
             className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold"
           >
             Send Message

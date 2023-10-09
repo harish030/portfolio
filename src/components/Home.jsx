@@ -24,21 +24,21 @@ const Home = () => {
               }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Angular/React Developer")
+                  .typeString("an Angular/React Developer")
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("Software Engineer")
+                  .typeString("a Software Engineer")
                   .start();
               }}
             />
           </h2>
         </div>
         <p className="text-gray-300 py-4 leading-8">
-          With a passion for creating captivating user experiences, I specialize
-          in developing mobile applications using Flutter while incorporating
+          With a passion for creating user interfaces, I specialize
+          in developing web applications using Angular and React while incorporating
           appealing design principles.
         </p>
-        <div>
+        {/* <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#00FFCA] hover:border-[#00FFCA] rounded-sm hover:text-[#3A1078] font-semibold">
             View Work{" "}
             <span className="group-hover:translate-x-1 duration-300">
@@ -46,7 +46,7 @@ const Home = () => {
               <HiArrowNarrowRight className="ml-4" />
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

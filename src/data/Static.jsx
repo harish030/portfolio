@@ -14,42 +14,43 @@ import c from "../assets/langues/c.png";
 import py from "../assets/langues/py.png";
 import php from "../assets/langues/php.png";
 import java from "../assets/langues/java.png";
-import typescript from "../assets/langues/typescript.png"
+import typescript from "../assets/langues/typescript.png";
+import angularmaterial from "../assets/langues/angularmaterial.png";
+import sql from "../assets/langues/sql.png"
 
 // Array of work objects
 export const works = [
   {
-    title: "Furniture e-commerce App",
+    title: "Event Management App",
     imgUrl:
-      "https://cdn.dribbble.com/users/6870886/screenshots/20051488/media/f16e46c91563fd48d6b80c37b48ac6df.png?compress=1&resize=1000x750&vertical=top",
-    tech: ["Flutter", "Figma", "Material UI"],
+      "https://www.lectie.com/static/media/bespoke_product.f7ce56b74428b7292c5f.png",
+    tech: ["Angular", "Angular Material", "Bootstrap"],
     workUrl:
-      "https://www.behance.net/gallery/158475619/Furniture-Shopping-App-Design",
+      "https://www.lectie.com/",
     duration: "400",
   },
 
   {
-    title: "Photography Portfolio Website",
-    imgUrl:
-      "https://cdn.dribbble.com/users/6870886/screenshots/19725277/media/51d626308c85e403aa3e3ab67ba22022.png?compress=1&resize=400x300&vertical=top",
-    tech: ["HTML", "CSS", "Bootstrap 5"],
+    title: "Portcall Management Website",
+    imgUrl:"https://www.logomoose.com/wp-content/uploads/2013/10/500X247-46.jpg",
+    tech: ["Angular","Angular Material"],
     workUrl:
       "https://www.behance.net/gallery/155476041/UI-Design-Photography-Portfolio-Website",
     duration: "500",
   },
   {
-    title: "Portfolio Maker",
+    title: "Zvolv Component Creation",
     imgUrl:
-      "https://cdn.dribbble.com/users/6870886/screenshots/20208089/portfilio1_cover.jpg",
-    tech: ["Django", "CSS", "Boottsrap 5", "Jquery"],
+      "https://www.zvolv.com/assets/images/product-screens/reporting.png",
+    tech: ["React JS","Tailwind CSS"],
     workUrl: "https://github.com/LaithMahdi/portfolio_maker",
     duration: "600",
   },
   {
-    title: "Maklti food app",
+    title: "Custom Component Creation",
     imgUrl:
-      "https://cdn.dribbble.com/users/6870886/screenshots/19057557/cover_dribbble.png",
-    tech: ["Flutter", "Figma", "Material UI"],
+      "https://global.discourse-cdn.com/business7/uploads/builder/original/2X/a/aca2594e756768803ce3a518692e3db2346b060b.png",
+    tech: ["Angular","React JS","Tailwind CSS"],
     workUrl:
       "https://www.behance.net/gallery/150189805/MAKLTI-Food-Delivery-App",
     duration: "700",
@@ -59,26 +60,19 @@ export const works = [
 // Array of experience objects
 export const experiences = [
   {
-    date: "January 2023 - February 2023",
-    company: "AfterCode",
-    position: "Flutter Developer",
+    date: "May 2021 - August 2021",
+    company: "SigmaLabs",
+    position: "Blockchain Trainee",
     description:
-      "I successfully developed a mobile application for managing a healthcare facility, catering to both the administrative staff and patients. This involved conducting a thorough study, designing intuitive interfaces, and seamlessly integrating the Backend system.",
+      "I succesfully learned Blockchain Technology .Also learned Solidity(Ethereum) and TEAL(Algorand) programming language, Motoko(Internet Computer) programming language",
   },
   {
-    date: "January 2022 - February 2022",
-    company: "AfterCode",
-    position: "Internship",
+    date: "October 2021 - October 2023",
+    company: "Hakuna Matata Solutions",
+    position: "Software Engineer",
     description:
       "I have expertise in creating visually captivating and user-friendly websites for restaurants. Additionally, I possess skills in managing automated tests to ensure optimal functionality and performance.",
-  },
-  {
-    date: "January 2020 - Present",
-    company: "Self employed",
-    position: "Freelancer",
-    description:
-      "I specialize in designing user interfaces for websites and mobile applications. I also create logos, posters, and mockups. My designs are visually appealing, intuitive, and tailored to engage target audiences. With a deep understanding of design principles and industry trends, I consistently deliver high-quality work that captivates users.",
-  },
+  }
 ];
 
 
@@ -116,35 +110,44 @@ export const langues = [
   },
   {
     id: 6,
-    src: github,
-    title: "GitHub",
-    style: "shadow-gray-400",
-  },
-  {
-    id: 7,
-    src: tailwind,
-    title: "Tailwind",
-    style: "shadow-teal-600",
-  },
-  {
-    id: 8,
     src: angular,
     title: "Angular",
     style: "shadow-rose-500",
   },
   {
-    id: 9,
-    src: bootstrap,
-    title: "Bootstrap",
-    style: "shadow-violet-500",
+    id:7,
+    src:angularmaterial,
+    title:"Angular Material",
+    style: "shadow-yellow-600"
   },
   {
+    id: 8,
+    src: tailwind,
+    title: "Tailwind",
+    style: "shadow-teal-600",
+  },
+  {
+  id: 9,
+  src: bootstrap,
+  title: "Bootstrap",
+  style: "shadow-violet-500",
+},
+  {
     id: 10,
+    src: github,
+    title: "GitHub",
+    style: "shadow-gray-400",
+  },
+  {
+    id: 11,
     src: py,
     title: "Python",
     style: "shadow-yellow-400",
   },
-  
-
-  
+  {
+    id: 12,
+    src: sql,
+    title: "SQL",
+    style: "shadow-sky-300",
+  }
 ];
