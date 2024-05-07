@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import pic from "../assets/pic2.jpg";
 import { BsDownload } from "react-icons/bs";
 import { saveAs } from "file-saver";
-import file from "../assets/MOHAMED_HARISH_HAMEED_CV.pdf";
+import file from "../assets/MOHAMED_HARISH_CV.pdf";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

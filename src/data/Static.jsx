@@ -23,7 +23,7 @@ export const works = [
   {
     title: "Event Management App",
     imgUrl:
-      "https://www.lectie.com/static/media/bespoke_product.f7ce56b74428b7292c5f.png",
+      "https://techpoint.africa/wp-content/uploads/2023/06/Techpoint_1.png",
     tech: ["Angular", "Angular Material", "Bootstrap"],
     workUrl:
       "https://www.lectie.com/",
@@ -62,7 +62,7 @@ export const experiences = [
   {
     date: "May 2021 - August 2021",
     company: "SigmaLabs",
-    position: "Blockchain Trainee",
+    position: "Blockchain Developer",
     description:
       "I succesfully learned Blockchain Technology .Also learned Solidity(Ethereum) and TEAL(Algorand) programming language, Motoko(Internet Computer) programming language",
   },
