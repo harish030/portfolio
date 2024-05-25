@@ -60,14 +60,14 @@ export const works = [
 // Array of experience objects
 export const experiences = [
   {
-    date: "May 2021 - August 2021",
+    date: "March 2021 - October 2021",
     company: "SigmaLabs",
     position: "Blockchain Developer",
     description:
       "I succesfully learned Blockchain Technology .Also learned Solidity(Ethereum) and TEAL(Algorand) programming language, Motoko(Internet Computer) programming language",
   },
   {
-    date: "October 2021 - October 2023",
+    date: "October 2021 - November 2023",
     company: "Hakuna Matata Solutions",
     position: "Software Engineer",
     description:
