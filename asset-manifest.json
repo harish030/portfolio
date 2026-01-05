@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.51835a97.css",
-    "main.js": "/portfolio/static/js/main.feabacb8.js",
+    "main.js": "/portfolio/static/js/main.ae2774ac.js",
     "static/media/py.png": "/portfolio/static/media/py.d8b377f05522bf35de36.png",
+    "static/media/Harish_Angular_Java_5years.pdf": "/portfolio/static/media/Harish_Angular_Java_5years.1d10ed6f61151ce709c8.pdf",
     "static/media/vscode.png": "/portfolio/static/media/vscode.c9c09572dbecb5980b4e.png",
     "static/media/pic2.jpg": "/portfolio/static/media/pic2.f837c97f7614dd43513f.jpg",
-    "static/media/MOHAMED_HARISH_CV.pdf": "/portfolio/static/media/MOHAMED_HARISH_CV.c53460830e69a7cecfb6.pdf",
     "static/media/intellij.png": "/portfolio/static/media/intellij.4be7f67def899e0b8883.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.cb0fcc269e8250f3551b.png",
     "static/media/php.png": "/portfolio/static/media/php.b59deec830f215d303b4.png",
@@ -31,10 +31,10 @@
     "static/media/hibernate.svg": "/portfolio/static/media/hibernate.f0b345beb75257ef88f5d597d97e77ca.svg",
     "index.html": "/portfolio/index.html",
     "main.51835a97.css.map": "/portfolio/static/css/main.51835a97.css.map",
-    "main.feabacb8.js.map": "/portfolio/static/js/main.feabacb8.js.map"
+    "main.ae2774ac.js.map": "/portfolio/static/js/main.ae2774ac.js.map"
   },
   "entrypoints": [
     "static/css/main.51835a97.css",
-    "static/js/main.feabacb8.js"
+    "static/js/main.ae2774ac.js"
   ]
 }
